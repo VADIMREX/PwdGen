@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pwdgencore", "pwdgencore\pw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwdGenLib", "PwdGenLib\PwdGenLib.csproj", "{B82EE7DB-03E4-4C1C-A6B0-6E15AC852340}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwdGen", "PwdGen-net\PwdGen.csproj", "{BE3D38A9-1EA3-4D36-AA52-BE9E5E1B0433}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B82EE7DB-03E4-4C1C-A6B0-6E15AC852340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B82EE7DB-03E4-4C1C-A6B0-6E15AC852340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B82EE7DB-03E4-4C1C-A6B0-6E15AC852340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3D38A9-1EA3-4D36-AA52-BE9E5E1B0433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3D38A9-1EA3-4D36-AA52-BE9E5E1B0433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3D38A9-1EA3-4D36-AA52-BE9E5E1B0433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3D38A9-1EA3-4D36-AA52-BE9E5E1B0433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
