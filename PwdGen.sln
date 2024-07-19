@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwdGen", "PwdGen\PwdGen.csproj", "{85C70856-CE6B-4DD5-9EDA-51C5E3F1D63C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pwdgencore", "pwdgencore\pwdgencore.csproj", "{3ABAFE88-3347-4B7D-AA6D-5BCA786F785E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwdGenLib", "PwdGenLib\PwdGenLib.csproj", "{B82EE7DB-03E4-4C1C-A6B0-6E15AC852340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85C70856-CE6B-4DD5-9EDA-51C5E3F1D63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C70856-CE6B-4DD5-9EDA-51C5E3F1D63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C70856-CE6B-4DD5-9EDA-51C5E3F1D63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C70856-CE6B-4DD5-9EDA-51C5E3F1D63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABAFE88-3347-4B7D-AA6D-5BCA786F785E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABAFE88-3347-4B7D-AA6D-5BCA786F785E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABAFE88-3347-4B7D-AA6D-5BCA786F785E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABAFE88-3347-4B7D-AA6D-5BCA786F785E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82EE7DB-03E4-4C1C-A6B0-6E15AC852340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82EE7DB-03E4-4C1C-A6B0-6E15AC852340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82EE7DB-03E4-4C1C-A6B0-6E15AC852340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82EE7DB-03E4-4C1C-A6B0-6E15AC852340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F081D54B-E786-4AB2-B320-CAC4F2069BCB}
+	EndGlobalSection
+EndGlobal
