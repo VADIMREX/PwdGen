@@ -1,5 +1,7 @@
 namespace VX.PwdGen;
 
+using pwdgenlib;
+
 public partial class PwdGenForm : Form
 {
 

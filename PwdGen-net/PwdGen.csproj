@@ -1,11 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <RootNamespace>VX.PwdGen</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
     <Nullable>enable</Nullable>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PwdGenLib\PwdGenLib.csproj">
+      <Project>{b82ee7db-03e4-4c1c-a6b0-6e15ac852340}</Project>
+      <Name>PwdGenLib</Name>
+    </ProjectReference>
+  </ItemGroup>
 
 </Project>
